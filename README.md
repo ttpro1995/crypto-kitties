@@ -1,7 +1,7 @@
 # crypto-kitties
 A Crypto Kitties clone. For fun... and maybe food for the Crypto Zombies tutorial! Mwuahahah!
 
-Hosted on Netlify: https://mayjer-academy-kitties.netlify.app/
+Hosted on Netlify: https://academy-crypto-kitties.netlify.app/
 
 Original project, check them out!<br>
 https://www.cryptokitties.co/
@@ -9,9 +9,9 @@ https://www.cryptokitties.co/
 ### Contracts
 Deployed on Ropsten
 
-Kitties: https://ropsten.etherscan.io/address/0xd4bcc3f1c483ea10fdb97523357ca660e6b3c71e
+kitty: '0xC502973946FeeCa225d1dacEa0D7D3D038280f11',
+market: '0x6Ecb593C2b5727d28CdbA55d6edF487c7e134D6f',
 
-Marketplace: https://ropsten.etherscan.io/address/0xa67e70910341ddf96537f005280a4417b5b29578
 
 ### Tech Stack
 
