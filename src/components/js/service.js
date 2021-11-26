@@ -8,8 +8,10 @@ export default class Service {
     // '0x1': // Etereum MainNet
     '0x3': {
       // Ropsten Test'
-      kitty: '0xD4Bcc3f1C483Ea10fDb97523357CA660E6B3c71E',
-      market: '0xa67e70910341DDF96537F005280a4417b5B29578',
+      // kitty: '0xD4Bcc3f1C483Ea10fDb97523357CA660E6B3c71E',
+      // market: '0xa67e70910341DDF96537F005280a4417b5B29578',
+      kitty: '0xC502973946FeeCa225d1dacEa0D7D3D038280f11',
+      market: '0x6Ecb593C2b5727d28CdbA55d6edF487c7e134D6f',
     },
     '0x539': {
       // Ganache Local

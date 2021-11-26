@@ -50,13 +50,17 @@ exports.networks = {
   // Useful for deploying to a public network.
   // NB: It's important to wrap the provider as a function.
   ropsten: {
-    provider: () => new HDWalletProvider(
-      process.env.MNEMONIC,
-      `https://ropsten.infura.io/v3/${process.env.INFURA_PROJECT_ID}`
-    ),
+    // provider: () => new HDWalletProvider(
+    //   process.env.MNEMONIC,
+    //   `https://ropsten.infura.io/v3/${process.env.INFURA_PROJECT_ID}`
+    // ),
+    provider: () => new HDWalletProvider({
+      privateKeys: [process.env.WALLET_PRIVATE_KEY],
+      providerOrUrl: `https://ropsten.infura.io/v3/${process.env.INFURA_PROJECT_ID}`,
+    }),
     network_id: 3,
     gas: 5500000,
-    confirmations: 2,
+    confirmations: 1,
     timeoutBlocks: 200,
     skipDryRun: true,
   },
